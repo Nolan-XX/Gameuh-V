@@ -1,6 +1,6 @@
 package character;
 
-public class Character {
+abstract class Character {
 	
 	public String nom;
 	public int level;
@@ -10,5 +10,9 @@ public class Character {
 	{
 	  this.nom = n;
 	}
+	
+	public abstract void update();
+	
+	public abstract void levelUp();
 
 }
