@@ -20,6 +20,8 @@ public enum EnumClasse {
 	   this.be  = esp_base;      this.ge = esp_grow;
    }
    
+   //ttt
+   
    public String getName()   { return n;}
    public int getBaseHP()    { return bh;}
    public int getBaseMP()    { return bm;}
